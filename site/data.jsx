@@ -194,10 +194,10 @@ const CONTENT = {
   ],
 
   team: [
-    { name: "Nasir Ahmed Omar",     role: "Lead, Health Security & Technical Strategy",              img: "photos/team-1.jpeg" },
-    { name: "Fatima Bello",         role: "Lead, Partnerships, Grants and Resource Mobilisation",     img: "photos/team-2.jpeg" },
-    { name: "Faizu Ahmad",      role: "Lead, Operations, Finance and Administration",             img: "photos/team-3.jpeg" },
-    { name: "Abdulhalim Abdullahi", role: "Lead, Community Programmes, Empowerment and Communications", img: "photos/team-4.jpeg" },
+    { name: "Nasir Ahmed Omar",     role: "Lead, Health Security & Technical Strategy",              img: "photos/team-1.jpg" },
+    { name: "Fatima Bello",         role: "Lead, Partnerships, Grants and Resource Mobilisation",     img: "photos/team-2.jpg" },
+    { name: "Faizu Ahmad",      role: "Lead, Operations, Finance and Administration",             img: "photos/team-3.jpg" },
+    { name: "Abdulhalim Abdullahi", role: "Lead, Community Programmes, Empowerment and Communications", img: "photos/team-4.jpg" },
   ],
 
   gallery: [
