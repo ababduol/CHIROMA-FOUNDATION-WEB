@@ -148,7 +148,6 @@ function App() {
           <Intro />
           <Hero go={go} variant={t.heroVariant} />
           <Strip />
-          <DonateCTA go={go} />
         </main>
       )}
       {route === "about"   && <AboutPage   go={go} />}
