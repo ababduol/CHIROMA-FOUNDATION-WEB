@@ -24,6 +24,7 @@ const TopBar = ({ route, go }) => {
     ["about", "About Us"],
     ["causes", "Projects"],
     ["stories", "Resources"],
+    ["donate", "Donate"],
     ["contact", "Contact Us"],
   ];
   const handleGo = (k) => { go(k); setMenuOpen(false); };
