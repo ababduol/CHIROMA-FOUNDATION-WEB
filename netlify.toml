@@ -1,0 +1,10 @@
+CHIROMA-FOUNDATION-WEB/
+├── netlify.toml          ← NEW (repo root, not inside site/)
+├── netlify/
+│   └── functions/
+│       └── chat.js       ← NEW (create these two folders)
+└── site/
+    ├── chat-widget.jsx   ← NEW
+    ├── index.html        ← replace
+    ├── app.jsx           ← replace
+    └── ...your other files
