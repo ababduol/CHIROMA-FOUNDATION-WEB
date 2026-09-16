@@ -1,7 +1,7 @@
 /* global React, ReactDOM,
    TopBar, Hero, Strip, Intro, Causes, Impact, Stories, Pull, DonateCTA, Involve, Footer,
    AboutPage, DonatePage, CausesPage, StoriesPage, GalleryPage, ContactPage,
-   TweaksPanel, useTweaks, TweakSection, TweakRadio, TweakSelect */
+   TweaksPanel, useTweaks, TweakSection, TweakRadio, TweakSelect, ChatWidget */
 
 const { useState: useS, useEffect: useE } = React;
 
@@ -158,6 +158,8 @@ function App() {
       {route === "contact" && <ContactPage go={go} />}
 
       <Footer go={go} />
+
+      <ChatWidget />
 
       <TweaksPanel title="Tweaks">
         <TweakSection title="Palette">
