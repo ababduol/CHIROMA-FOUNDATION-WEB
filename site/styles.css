@@ -1675,7 +1675,7 @@ button {
   background: var(--bg);
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
-  padding: 16px 12px 18px;
+  padding: 20px 12px;
   text-align: center;
   transition: all .15s;
 }
