@@ -6,25 +6,15 @@ const { useState: useStateP, useEffect: useEffectP } = React;
    ============================================================ */
 const ABOUT_ACCORDION_ITEMS = [
   {
-    title: "Our Mission",
+    title: "Our Vision",
     render: () => (
-      <>
-        <p>{CONTENT.brand.mission}</p>
-        <p style={{ marginTop: 12 }}>
-          We work in integrated cohorts — a mother enrolled in our antenatal programme is invited to vocational training; her daughter is offered a school scholarship. Health, education, and livelihood, braided together.
-        </p>
-      </>
+      <p>{CONTENT.brand.vision}</p>
     ),
   },
   {
-    title: "Our Vision",
+    title: "Our Mission",
     render: () => (
-      <>
-        <p>{CONTENT.brand.vision}</p>
-        <p style={{ marginTop: 12 }}>
-          We measure our work not in headcount but in second visits: people who return, who bring a neighbour, who eventually outgrow us. That's the metric that matters.
-        </p>
-      </>
+      <p>{CONTENT.brand.mission}</p>
     ),
   },
   {
@@ -33,7 +23,6 @@ const ABOUT_ACCORDION_ITEMS = [
       <div className="acc-values">
         {CONTENT.coreValues.map((v) => (
           <div className="acc-value" key={v.title}>
-            <span className="code">{v.code}</span>
             <div>
               <h4>{v.title}</h4>
               <p>{v.body}</p>
@@ -94,18 +83,11 @@ const AboutAccordion = () => {
 
           <article className="story-feature about-quote">
             <div className="img">
-              <img key={photoIdx} src={photos[photoIdx]} alt="Chiroma Empowerment Foundation community outreach" className="intro-shuffle-img" />
+              <img key={photoIdx} src={photos[photoIdx].src} alt={photos[photoIdx].caption} className="intro-shuffle-img" />
             </div>
-            <p className="body" style={{ fontStyle: "italic", fontSize: 17, lineHeight: 1.6, color: "var(--ink)" }}>
-              "Our work is integrated by design — a girl's education depends on her mother's livelihood, which depends on her family's health. We invest in all four, together."
+            <p className="body" key={"cap" + photoIdx} style={{ fontSize: 16, lineHeight: 1.6, color: "var(--ink-2)" }}>
+              {photos[photoIdx].caption}
             </p>
-            <div className="person">
-              <div className="avatar">F</div>
-              <div>
-                <div className="name">Faizu Ahmad</div>
-                <div className="meta">Founder, Chiroma Empowerment Foundation</div>
-              </div>
-            </div>
           </article>
         </div>
       </div>
