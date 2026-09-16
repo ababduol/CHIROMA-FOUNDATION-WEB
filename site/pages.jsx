@@ -146,7 +146,7 @@ const DonatePage = () => {
               A donation is a<br />programme on the<br /><em>ground</em>.
             </h1>
             <p className="lead">
-              Your gift directly funds maternal healthcare, girls' education, vocational training, and humanitarian relief for displaced families in northern Nigeria.
+              Your gift directly funds maternal healthcare, girls' education, vocational training, and humanitarian relief for vulnerable communities in Nigeria.
             </p>
             <div className="badges">
               <span className="badge"><span className="dot" /> Tax-deductible receipt</span>
@@ -199,7 +199,6 @@ const DonatePage = () => {
                 >
                   {a.popular && <span className="ribbon">Popular</span>}
                   <div className="v">{a.v}</div>
-                  <div className="impact-line">{a.impact}</div>
                 </button>
               ))}
             </div>
