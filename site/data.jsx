@@ -19,26 +19,26 @@ const CONTENT = {
     eyebrow: "Who we are",
     title: "Introduction",
     body:
-      "Chiroma Empowerment Foundation is a humanitarian and development-focused non-profit initiative dedicated to building healthier, empowered, and resilient communities across Nigeria, with a particular focus on women, children, internally displaced persons (IDPs), and underserved, hard-to-reach, and vulnerable populations.",
+      "Chiroma Empowerment Foundation is a humanitarian and development-focused non-profit organization committed to building healthier, empowered, and resilient communities across Nigeria.\n\nWe prioritize women, children, internally displaced persons (IDPs), and underserved and vulnerable populations, delivering community-driven solutions that promote dignity, inclusion, protection, sustainable livelihoods, and self-reliance.\n\nThrough strategic partnerships and locally led initiatives, we respond to immediate needs while addressing the underlying challenges that limit opportunity and resilience. We believe that everyone deserves the opportunity to live with dignity, reach their potential, and contribute meaningfully to their community.",
     photos: [
-      "photos/01-hepatitis-outreach.jpeg",
-      "photos/02-school-outreach.jpeg",
-      "photos/03-hygiene-children.jpeg",
-      "photos/04-handwashing-demo.jpeg",
-      "photos/05-2sure-volunteers.jpeg",
-      "photos/06-hepatitis-testing.jpeg",
-      "photos/07-vaccination.jpeg",
-      "photos/08-hepatitis-screening.jpeg",
-      "photos/09-hepatitis-awareness.jpeg",
-      "photos/10-idp-support.jpeg",
+      { src: "photos/01-hepatitis-outreach.jpeg", caption: "Community hepatitis outreach — bringing free screening directly to neighbourhoods that rarely see a clinic." },
+      { src: "photos/02-school-outreach.jpeg", caption: "School outreach — reaching out-of-school children with education and health support in rural communities." },
+      { src: "photos/03-hygiene-children.jpeg", caption: "Hygiene education — teaching children practical habits that prevent disease at home and in school." },
+      { src: "photos/04-handwashing-demo.jpeg", caption: "Handwashing demonstration — hands-on training that turns knowledge into everyday practice." },
+      { src: "photos/05-2sure-volunteers.jpeg", caption: "Our volunteers — community members trained and equipped to lead health promotion where they live." },
+      { src: "photos/06-hepatitis-testing.jpeg", caption: "Hepatitis B and C testing — free, confidential screening with immediate linkage to care." },
+      { src: "photos/07-vaccination.jpeg", caption: "Vaccination outreach — protecting women and children through accessible community immunisation." },
+      { src: "photos/08-hepatitis-screening.jpeg", caption: "Screening day — meeting people where they are, removing cost and distance as barriers to care." },
+      { src: "photos/09-hepatitis-awareness.jpeg", caption: "Awareness campaign — replacing stigma and silence with accurate information people can act on." },
+      { src: "photos/10-idp-support.jpeg", caption: "Support for internally displaced persons — meeting urgent needs while rebuilding dignity and self-reliance." },
     ],
   },
 
   coreValues: [
-    { code: "I", title: "Integrity", body: "Operating with honesty, transparency, and accountability." },
-    { code: "C", title: "Compassion", body: "Serving with empathy and respect." },
-    { code: "E", title: "Equity", body: "Ensuring inclusive and fair access to opportunities and services." },
-    { code: "E", title: "Evidence-Based Impact", body: "Grounding every decision, intervention, and claim of success in data, research, and community insight — and holding ourselves accountable to measurable outcomes." },
+    { title: "Integrity", body: "Operating with honesty, transparency, and accountability." },
+    { title: "Impact", body: "Turning evidence, insight, and action into meaningful, measurable, and sustainable change." },
+    { title: "Compassion", body: "Serving with empathy and respect." },
+    { title: "Equity", body: "Ensuring inclusive and fair access to opportunities and services." },
   ],
 
   heroStats: [
@@ -65,7 +65,7 @@ const CONTENT = {
       num: "02",
       title: "Health Security & Community Resilience",
       body:
-        "Strengthen community and local-level capacity to prevent, anticipate, detect, prepare for, respond to and recover from public health threats and emergencies, while supporting national health-security priorities through collaboration with NCDC and other relevant government and development partners.",
+        "Strengthen community and local-level capacity to prevent, anticipate, detect, prepare for, respond to and recover from public health threats and emergencies, while supporting national health-security priorities through relevant MDAs and development partners.",
       icon: "shield",
       objectives: [
         "Strengthen community and local-level capacity for prevention, preparedness, early detection, risk communication and response to public health threats and emergencies.",
