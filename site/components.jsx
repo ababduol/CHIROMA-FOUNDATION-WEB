@@ -24,8 +24,8 @@ const TopBar = ({ route, go }) => {
     ["about", "About Us"],
     ["causes", "Projects"],
     ["stories", "Resources"],
-    ["donate", "Donate"],
     ["contact", "Contact Us"],
+    ["donate", "Donate"],
   ];
   const handleGo = (k) => { go(k); setMenuOpen(false); };
   return (
@@ -36,10 +36,13 @@ const TopBar = ({ route, go }) => {
           {links.map(([k, label]) => (
             <a
               key={k}
-              className={"nav-link" + (route === k ? " active" : "")}
+              className={"nav-link" + (route === k ? " active" : "") + (k === "donate" ? " nav-link-donate" : "")}
               href={"#/" + k}
               onClick={(e) => { e.preventDefault(); go(k); }}
-            >{label}</a>
+            >
+              {k === "donate" && <Icon name="heart" size={15} />}
+              {label}
+            </a>
           ))}
         </nav>
         <button
@@ -55,10 +58,13 @@ const TopBar = ({ route, go }) => {
         {links.map(([k, label]) => (
           <a
             key={k}
-            className={"mobile-nav-link" + (route === k ? " active" : "")}
+            className={"mobile-nav-link" + (route === k ? " active" : "") + (k === "donate" ? " nav-link-donate" : "")}
             href={"#/" + k}
             onClick={(e) => { e.preventDefault(); handleGo(k); }}
-          >{label}</a>
+          >
+            {k === "donate" && <Icon name="heart" size={15} />}
+            {label}
+          </a>
         ))}
       </div>
     </header>
@@ -79,7 +85,7 @@ const Hero = ({ go, variant }) => {
           </p>
           <div className="hero-meta">
             {[
-              { num: "1.8", em: "K+", lbl: "Lives reached in our first months" },
+              { num: "1.8", em: "K+", lbl: "Lives reached" },
               { num: "6",   em: "",   lbl: "Active community programmes" },
               { num: "98",  em: "%",  lbl: "Of funds reach the field" },
             ].map((s, i) => (
@@ -141,10 +147,12 @@ const Intro = () => {
         <div className="intro-grid">
           <div className="reveal">
             <h2>{CONTENT.intro.title}</h2>
-            <p>{CONTENT.intro.body}</p>
+            {CONTENT.intro.body.split("\n\n").map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
           </div>
           <div className="hero-image intro-image reveal" style={{ "--reveal-delay": "120ms" }}>
-            <img key={idx} src={photos[idx]} alt="Chiroma Empowerment Foundation community outreach" className="intro-shuffle-img" />
+            <img key={idx} src={photos[idx].src} alt={photos[idx].caption} className="intro-shuffle-img" />
             <span className="tag">Live · 2026</span>
           </div>
         </div>
