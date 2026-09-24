@@ -86,7 +86,7 @@ const Hero = ({ go, variant }) => {
           <div className="hero-meta">
             {[
               { num: "1.8", em: "K+", lbl: "Lives reached" },
-              { num: "6",   em: "",   lbl: "Active community programmes" },
+              { num: "6",   em: "",   lbl: "Active community projects" },
               { num: "98",  em: "%",  lbl: "Of funds reach the field" },
             ].map((s, i) => (
               <div key={i}>
@@ -106,12 +106,10 @@ const Hero = ({ go, variant }) => {
    ============================================================ */
 const Strip = () => {
   const items = [
-    ["Healthcare", "for all"],
-    ["Education", "that lasts"],
-    ["Livelihoods", "with dignity"],
-    ["Humanitarian", "relief"],
-    ["Women", "& children"],
-    ["IDP", "support"],
+    ["Health Security", "for all"],
+    ["Digital Health", "for access"],
+    ["Partnerships", "for impact"],
+    ["Evidence", "for action"],
   ];
   const doubled = [...items, ...items];
   return (
@@ -151,9 +149,13 @@ const Intro = () => {
               <p key={i}>{para}</p>
             ))}
           </div>
-          <div className="hero-image intro-image reveal" style={{ "--reveal-delay": "120ms" }}>
-            <img key={idx} src={photos[idx].src} alt={photos[idx].caption} className="intro-shuffle-img" />
-            <span className="tag">Live · 2026</span>
+          <div className="reveal">
+            <div className="hero-image intro-image" style={{ "--reveal-delay": "120ms" }}>
+              <img key={idx} src={photos[idx].src} alt={photos[idx].caption} className="intro-shuffle-img" />
+            </div>
+            <p className="intro-photo-caption" key={"cap" + idx}>
+              {photos[idx].caption}
+            </p>
           </div>
         </div>
       </div>
@@ -235,7 +237,7 @@ const Stories = () => {
             <h2 style={{ marginTop: 14 }}>Whose lives,<br /><em>in their own words</em>.</h2>
           </div>
           <p className="lead">
-            Every programme begins and ends with a person. These are a few of the people whose lives have intersected with ours — and ours with theirs.
+            Every project begins and ends with a person. These are a few of the people whose lives have intersected with ours — and ours with theirs.
           </p>
         </div>
 
@@ -303,10 +305,10 @@ const DonateCTA = ({ go }) => {
         <div className="section-head">
           <div>
             <span className="eyebrow"><span className="bullet" /> Give</span>
-            <h2 style={{ marginTop: 14 }}>Your gift is a programme,<br />a clinic, <em>a classroom</em>.</h2>
+            <h2 style={{ marginTop: 14 }}>Your gift is a project,<br />a clinic, <em>a classroom</em>.</h2>
           </div>
           <p className="lead">
-            We publish where every Naira lands — every quarter, no exceptions. Ninety-eight kobo of every Naira goes directly to programmes on the ground.
+            We publish where every Naira lands — every quarter, no exceptions. Ninety-eight kobo of every Naira goes directly to projects on the ground.
           </p>
         </div>
 
@@ -314,7 +316,7 @@ const DonateCTA = ({ go }) => {
           <div className="donate-card">
             <h3>Give once. <em>Give monthly.</em><br />Be the steady hand.</h3>
             <p className="body">
-              Monthly donors are the backbone of every long-running programme we operate — from school scholarships to mobile clinics. Even ₦5,000 a month changes what's possible.
+              Monthly donors are the backbone of every long-running project we operate — from school scholarships to mobile clinics. Even ₦5,000 a month changes what's possible.
             </p>
             <div className="tiles">
               {quick.map((q, i) => (
