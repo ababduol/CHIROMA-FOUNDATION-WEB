@@ -142,15 +142,15 @@ const DonatePage = () => {
         <div className="donate-page-grid">
           <div>
             <span className="eyebrow"><span className="bullet" /> Support our work</span>
-            <h1 style={{ marginTop: 20 }}>
-              A donation is a<br />programme on the<br /><em>ground</em>.
-            </h1>
-            <p className="lead">
-              Your gift directly funds maternal healthcare, girls' education, vocational training, and humanitarian relief for vulnerable communities in Nigeria.
+            <p style={{ marginTop: 20, fontSize: 16, fontWeight: 400, lineHeight: 1.65, color: "var(--ink)" }}>
+              A donation is a project on the ground.
+            </p>
+            <p style={{ marginTop: 12, fontSize: 16, fontWeight: 400, lineHeight: 1.65, color: "var(--ink-2)" }}>
+              Your gift funds community health workers, outbreak preparedness, and evidence-led projects reaching underserved communities across Nigeria.
             </p>
             <div className="badges">
               <span className="badge"><span className="dot" /> Tax-deductible receipt</span>
-              <span className="badge"><span className="dot" /> 98% to programmes</span>
+              <span className="badge"><span className="dot" /> 98% to projects</span>
               <span className="badge"><span className="dot" /> Quarterly impact report</span>
               <span className="badge"><span className="dot" /> 256-bit SSL secure</span>
             </div>
@@ -159,7 +159,7 @@ const DonatePage = () => {
               <span className="eyebrow"><span className="bullet" /> Where your money goes</span>
               <div style={{ marginTop: 18, display: "flex", flexDirection: "column", gap: 10 }}>
                 {[
-                  ["Healthcare programmes", 38],
+                  ["Healthcare projects", 38],
                   ["Education & scholarships", 28],
                   ["Livelihoods training", 18],
                   ["Humanitarian relief", 14],
@@ -268,7 +268,7 @@ const CausesPage = ({ go }) => {
     },
     {
       meta: "EDUCATION · FEB 2026",
-      title: "Out-of-school programme reaches 600 children in rural Bauchi.",
+      title: "Out-of-school project reaches 600 children in rural Bauchi.",
       img: "photos/02-school-outreach.jpeg",
     },
     {
@@ -288,7 +288,7 @@ const CausesPage = ({ go }) => {
     },
     {
       meta: "EDUCATION · OCT 2025",
-      title: "Hygiene education programme expands to three new schools.",
+      title: "Hygiene education project expands to three new schools.",
       img: "photos/03-hygiene-children.jpeg",
     },
   ];
@@ -442,7 +442,7 @@ const ContactPage = () => {
                 <option value="volunteer">Volunteer my time</option>
                 <option value="partner">Partner with the foundation</option>
                 <option value="fundraise">Run a fundraiser</option>
-                <option value="learn">Learn about your programmes</option>
+                <option value="learn">Learn about your projects</option>
                 <option value="other">Something else</option>
               </select>
             </div>
