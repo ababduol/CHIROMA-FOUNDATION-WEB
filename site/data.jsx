@@ -21,16 +21,16 @@ const CONTENT = {
     body:
       "Chiroma Empowerment Foundation is a humanitarian and development-focused non-profit organization committed to building healthier, empowered, and resilient communities across Nigeria.\n\nWe prioritize women, children, internally displaced persons (IDPs), and underserved and vulnerable populations, delivering community-driven solutions that promote dignity, inclusion, protection, sustainable livelihoods, and self-reliance.\n\nThrough strategic partnerships and locally led initiatives, we respond to immediate needs while addressing the underlying challenges that limit opportunity and resilience. We believe that everyone deserves the opportunity to live with dignity, reach their potential, and contribute meaningfully to their community.",
     photos: [
-      { src: "photos/01-hepatitis-outreach.jpeg", caption: "Community hepatitis outreach — bringing free screening directly to neighbourhoods that rarely see a clinic." },
-      { src: "photos/02-school-outreach.jpeg", caption: "School outreach — reaching out-of-school children with education and health support in rural communities." },
-      { src: "photos/03-hygiene-children.jpeg", caption: "Hygiene education — teaching children practical habits that prevent disease at home and in school." },
-      { src: "photos/04-handwashing-demo.jpeg", caption: "Handwashing demonstration — hands-on training that turns knowledge into everyday practice." },
-      { src: "photos/05-2sure-volunteers.jpeg", caption: "Our volunteers — community members trained and equipped to lead health promotion where they live." },
-      { src: "photos/06-hepatitis-testing.jpeg", caption: "Hepatitis B and C testing — free, confidential screening with immediate linkage to care." },
-      { src: "photos/07-vaccination.jpeg", caption: "Vaccination outreach — protecting women and children through accessible community immunisation." },
-      { src: "photos/08-hepatitis-screening.jpeg", caption: "Screening day — meeting people where they are, removing cost and distance as barriers to care." },
-      { src: "photos/09-hepatitis-awareness.jpeg", caption: "Awareness campaign — replacing stigma and silence with accurate information people can act on." },
-      { src: "photos/10-idp-support.jpeg", caption: "Support for internally displaced persons — meeting urgent needs while rebuilding dignity and self-reliance." },
+      { src: "photos/01-hepatitis-outreach.jpeg", caption: "Community hepatitis outreach — Bauchi, Nigeria, February 2026. Bringing free screening directly to neighbourhoods that rarely see a clinic." },
+      { src: "photos/02-school-outreach.jpeg", caption: "School outreach — Bauchi, Nigeria, April 2026. Reaching out-of-school children with education and health support in rural communities." },
+      { src: "photos/03-hygiene-children.jpeg", caption: "Hygiene education — Bauchi, Nigeria, March 2026. Teaching children practical habits that prevent disease at home and in school." },
+      { src: "photos/04-handwashing-demo.jpeg", caption: "Handwashing demonstration — Bauchi, Nigeria, March 2026. Hands-on training that turns knowledge into everyday practice." },
+      { src: "photos/05-2sure-volunteers.jpeg", caption: "Our volunteers — Bauchi, Nigeria, March 2026. Community members trained and equipped to lead health promotion where they live." },
+      { src: "photos/06-hepatitis-testing.jpeg", caption: "Hepatitis B and C testing — Bauchi, Nigeria, February 2026. Free, confidential screening with immediate linkage to care." },
+      { src: "photos/07-vaccination.jpeg", caption: "Vaccination outreach — Bauchi, Nigeria, 2026. Protecting women and children through accessible community immunisation." },
+      { src: "photos/08-hepatitis-screening.jpeg", caption: "Screening day — Bauchi, Nigeria, February 2026. Meeting people where they are, removing cost and distance as barriers to care." },
+      { src: "photos/09-hepatitis-awareness.jpeg", caption: "Awareness campaign — Bauchi, Nigeria, February 2026. Replacing stigma and silence with accurate information people can act on." },
+      { src: "photos/10-idp-support.jpeg", caption: "Support for internally displaced persons — Bauchi, Nigeria, 2026. Meeting urgent needs while rebuilding dignity and self-reliance." },
     ],
   },
 
@@ -43,7 +43,7 @@ const CONTENT = {
 
   heroStats: [
     { num: "1,800+", lbl: "Lives reached in our first months" },
-    { num: "6",      lbl: "Active community programmes" },
+    { num: "6",      lbl: "Active community projects" },
     { num: "2026",   lbl: "Founded in Bauchi" },
   ],
 
@@ -83,7 +83,7 @@ const CONTENT = {
       objectives: [
         "Apply appropriate digital technologies and AI to expand access to reliable health information, education and community-based health support, particularly in hard-to-reach settings.",
         "Develop and support technology-enabled solutions that strengthen the capacity, connectivity and effectiveness of community-based frontline health actors.",
-        "Promote the responsible use of data, analytics and AI to strengthen surveillance, programme planning, risk assessment and decision-making.",
+        "Promote the responsible use of data, analytics and AI to strengthen surveillance, project planning, risk assessment and decision-making.",
         "Identify, test, evaluate and scale innovative, ethical, affordable and locally appropriate technology solutions that address priority health challenges.",
       ],
     },
@@ -91,7 +91,7 @@ const CONTENT = {
       num: "04",
       title: "Partnerships, Resource Mobilisation & Sustainable Impact",
       body:
-        "Build strategic partnerships and mobilise financial, technical and institutional resources to strengthen programmes, scale effective solutions and achieve sustainable, measurable community impact.",
+        "Build strategic partnerships and mobilise financial, technical and institutional resources to strengthen projects, scale effective solutions and achieve sustainable, measurable community impact.",
       icon: "handshake",
       objectives: [
         "Establish strategic partnerships with government, development partners, academia, civil society, communities and the private sector to advance the Foundation's mission.",
@@ -104,13 +104,13 @@ const CONTENT = {
       num: "05",
       title: "Evidence-Based Interventions & Learning",
       body:
-        "Generate, apply, and share rigorous evidence — through research, monitoring, evaluation, and community insight — to design effective interventions, demonstrate impact, and continuously strengthen the Foundation's programmes.",
+        "Generate, apply, and share rigorous evidence — through research, monitoring, evaluation, and community insight — to design effective interventions, demonstrate impact, and continuously strengthen the Foundation's projects.",
       icon: "check",
       objectives: [
-        "Strengthen the Foundation's monitoring, evaluation, research and learning (MERL) systems to generate credible, timely evidence on programme reach, quality and impact.",
+        "Strengthen the Foundation's monitoring, evaluation, research and learning (MERL) systems to generate credible, timely evidence on project reach, quality and impact.",
         "Ensure interventions are designed, tested and adapted based on evidence, data and community insight rather than assumption.",
         "Document, package and disseminate lessons, evidence and best practices to inform programming, policy dialogue and sector-wide learning.",
-        "Institutionalise a culture of reflection, adaptive management and continuous improvement across all programmes.",
+        "Institutionalise a culture of reflection, adaptive management and continuous improvement across all projects.",
       ],
     },
   ],
@@ -118,8 +118,8 @@ const CONTENT = {
   impactStats: [
     { n: "1.8",  unit: "K",   lbl: "Direct beneficiaries reached in our first months", tag: "PEOPLE" },
     { n: "2,400", unit: "",  lbl: "Free hepatitis tests run in a single outreach day", tag: "HEALTHCARE" },
-    { n: "1.2",  unit: "K",   lbl: "Schoolchildren trained in Be2Sure hygiene programme", tag: "HYGIENE" },
-    { n: "98",   unit: "%",   lbl: "Of funds reach programmes on the ground", tag: "TRANSPARENCY" },
+    { n: "1.2",  unit: "K",   lbl: "Schoolchildren trained in Be2Sure hygiene project", tag: "HYGIENE" },
+    { n: "98",   unit: "%",   lbl: "Of funds reach projects on the ground", tag: "TRANSPARENCY" },
   ],
 
   stories: {
@@ -140,7 +140,7 @@ const CONTENT = {
       },
       {
         meta: "EDUCATION · FEB 2026",
-        title: "Out-of-school programme reaches 600 children in rural Bauchi.",
+        title: "Out-of-school project reaches 600 children in rural Bauchi.",
         img: "photos/02-school-outreach.jpeg",
       },
       {
@@ -174,7 +174,7 @@ const CONTENT = {
     {
       n: "02",
       title: "Partner with us",
-      body: "We work with corporates, NGOs, and government agencies on co-funded community programmes.",
+      body: "We work with corporates, NGOs, and government agencies on co-funded community projects.",
       link: "Start a conversation",
     },
     {
@@ -188,7 +188,7 @@ const CONTENT = {
   timeline: [
     { year: "Jan 2026",  title: "Founded in Bauchi",            body: "Chiroma Empowerment Foundation is registered as a community-based non-profit serving women, children, and underserved communities." },
     { year: "Feb 2026",  title: "First outreach weekend",       body: "Free hepatitis B and C screening for 2,400 community members in partnership with the Bauchi State Ministry of Health." },
-    { year: "Mar 2026",  title: "Be2Sure hygiene campaign",     body: "Handwashing and hygiene education programme rolled out across 3 primary schools, training 1,200 children." },
+    { year: "Mar 2026",  title: "Be2Sure hygiene campaign",     body: "Handwashing and hygiene education project rolled out across 3 primary schools, training 1,200 children." },
     { year: "Apr 2026",  title: "Out-of-school outreach",       body: "Education and vaccination outreach reaches 600 out-of-school children across rural Bauchi." },
     { year: "2026\u201327", title: "What's next",               body: "Expanding mobile clinics across Bauchi LGAs and launching a girls' scholarship pilot for the new academic year." },
   ],
@@ -197,7 +197,7 @@ const CONTENT = {
     { name: "Nasir Ahmed Omar",     role: "Lead, Health Security & Technical Strategy",              img: "photos/team-1.jpg" },
     { name: "Fatima Bello",         role: "Lead, Partnerships, Grants and Resource Mobilisation",     img: "photos/team-2.jpg" },
     { name: "Faizu Ahmad",      role: "Lead, Operations, Finance and Administration",             img: "photos/team-3.jpg" },
-    { name: "Abdulhalim Abdullahi", role: "Lead, Community Programmes, Empowerment and Communications", img: "photos/team-4.jpg" },
+    { name: "Abdulhalim Abdullahi", role: "Lead, Community Projects, Empowerment and Communications", img: "photos/team-4.jpg" },
   ],
 
   gallery: [
@@ -205,7 +205,7 @@ const CONTENT = {
     { cls: "gi-2", src: "photos/02-school-outreach.jpeg",    label: "SCHOOL VISIT \u00b7 BAUCHI" },
     { cls: "gi-3", src: "photos/05-2sure-volunteers.jpeg",   label: "VOLUNTEERS" },
     { cls: "gi-4", src: "photos/06-hepatitis-testing.jpeg",  label: "HEPATITIS TESTING" },
-    { cls: "gi-5", src: "photos/04-handwashing-demo.jpeg",   label: "HYGIENE PROGRAMME" },
+    { cls: "gi-5", src: "photos/04-handwashing-demo.jpeg",   label: "HYGIENE Project" },
     { cls: "gi-6", src: "photos/03-hygiene-children.jpeg",   label: "COMMUNITY EDUCATION" },
     { cls: "gi-7", src: "photos/09-hepatitis-awareness.jpeg", label: "HEPATITIS AWARENESS EVENT" },
     { cls: "gi-8", src: "photos/02-school-outreach.jpeg",    label: "OUT-OF-SCHOOL OUTREACH" },
